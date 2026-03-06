@@ -4,6 +4,8 @@
 
 **🔗 [Try it live → julianhilgemann.github.io/lifeinweeks](https://julianhilgemann.github.io/lifeinweeks/)**
 
+![Life in Weeks Poster Generator Screenshot](src/assets/screenshot.png)
+
 [![Made with React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
 [![Canvas API](https://img.shields.io/badge/Canvas-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)]()
 [![Export](https://img.shields.io/badge/Export-PNG_HD%2F2K%2F4K-brightgreen?style=flat-square)]()
