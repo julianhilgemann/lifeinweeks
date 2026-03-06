@@ -440,7 +440,7 @@ export default function LifeInWeeks() {
       <div className={`pill-navbar ${darkMode ? "pill-navbar-dark" : "pill-navbar-light"}`}>
         <div style={{ display: "flex", flex: 1, justifyContent: "flex-start" }}>
           <a href="https://www.julianhilgemann.com/start" target="_blank" rel="noopener noreferrer" className="navbar-logo" style={{ display: "flex", alignItems: "center" }}>
-            <svg style={{ height: "20px", width: "auto" }} viewBox="0 0 496.05 496.05" xmlns="http://www.w3.org/2000/svg">
+            <svg style={{ height: "20px", width: "auto" }} viewBox="-16 -16 528.05 528.05" xmlns="http://www.w3.org/2000/svg">
               <circle cx="248.02" cy="248.02" r="240.02" fill="none" stroke={darkMode ? "#FFFFFF" : "#0A0A0A"} strokeMiterlimit="10" strokeWidth="24px" />
               <polygon points="414.8 247.47 410.09 270.25 367.27 271.43 339.39 386.13 294.21 385.74 323.68 270.65 258.47 270.65 264.75 247.87 329.57 247.08 365.31 110 410.09 109.6 373.95 247.47 414.8 247.47" fill={darkMode ? "#FFFFFF" : "#0A0A0A"} />
               <path d="M196.7,262s-16-1-41.88.54c-55.68,3.24-70.22,41-71,63.83-2.4,69.53,84,63.73,109.2-14.34,11.07-34.27,45.19-175.44,46.2-177-36.09-.3-112.1-.45-112.1-.45s2.66-10.16,6.49-23.61l155.25-.25c-.2,1.05-25,106.7-47.43,183.68C215,385.08,146.67,399.39,125,398.4c-34.13-1.54-62.45-27.88-62.45-72.27C62.51,290,92.36,245.7,155.6,246l44.88-.2Z" transform="translate(-1.71 -1.87)" fill={darkMode ? "#FFFFFF" : "#0A0A0A"} />
