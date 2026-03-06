@@ -264,11 +264,8 @@ function drawLifeGrid(canvas, {
         ctx.rect(x, cy, cellPx, cellPx);
       }
 
-      if (abs < livedWeeks) {
+      if (abs <= livedWeeks) {
         ctx.fillStyle = col || (darkMode ? "rgba(255,255,255,0.45)" : "rgba(0,0,0,0.45)");
-        ctx.fill();
-      } else if (abs === livedWeeks) {
-        ctx.fillStyle = INK; /* Already white in dark mode, black in light mode */
         ctx.fill();
       } else {
         ctx.fillStyle = FUTURE_F;
