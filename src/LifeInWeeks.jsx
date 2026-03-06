@@ -406,7 +406,7 @@ export default function LifeInWeeks() {
   const S = {
     section: { padding: "16px 24px", borderBottom: "1px solid rgba(255,255,255,0.06)" },
     label: { fontSize: 10, letterSpacing: "0.1em", color: "rgba(255,255,255,0.4)", textTransform: "uppercase", marginBottom: 8, display: "flex", alignItems: "center", gap: 6, fontWeight: 600 },
-    input: { width: "100%", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 6, color: "#E2E2E8", padding: "8px 10px", fontSize: 12, fontFamily: "'Inter', sans-serif", boxSizing: "border-box", outline: "none", transition: "border 0.2s" },
+    input: { width: "100%", height: "36px", margin: 0, WebkitAppearance: "none", appearance: "none", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 6, color: "#E2E2E8", padding: "0 10px", fontSize: 12, fontFamily: "'Inter', sans-serif", boxSizing: "border-box", outline: "none", transition: "border 0.2s" },
     select: { width: "100%", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 6, color: "#E2E2E8", padding: "6px 8px", fontSize: 11, fontFamily: "'Inter', sans-serif", boxSizing: "border-box", outline: "none" },
     slider: { width: "100%", cursor: "pointer", accentColor: "#FFFFFF" },
     valTag: { fontSize: 11, color: "rgba(255,255,255,0.5)", fontWeight: 500 },
@@ -416,6 +416,7 @@ export default function LifeInWeeks() {
     phaseRow: { display: "flex", gap: 6, alignItems: "center", marginBottom: 8 },
     swatch: (col) => ({ width: 22, height: 22, borderRadius: 4, background: col, flexShrink: 0, cursor: "pointer", border: "1px solid rgba(255,255,255,0.15)", position: "relative" }),
     pInput: { flex: 1, width: "50px", background: "transparent", border: "none", borderBottom: "1px solid rgba(255,255,255,0.1)", color: "#E2E2E8", fontSize: 11, fontFamily: "'Inter', sans-serif", padding: "4px 0", outline: "none", fontWeight: 500 },
+    numIn: { width: "32px", background: "transparent", border: "none", borderBottom: "1px solid rgba(255,255,255,0.1)", color: "#E2E2E8", fontSize: 11, fontFamily: "'Inter', sans-serif", padding: "4px 0", outline: "none", fontWeight: 500, textAlign: "center", appearance: "none", WebkitAppearance: "none", margin: 0 },
     // We'll remove inline S.main styles and use CSS classes for glassmorphism
     canvas: {
       maxWidth: "100%",
